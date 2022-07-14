@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    width: auto;
+    height: 100%;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e8ea;
+}
+
+div {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 150px;
+    width: 1200px;
+    height: 300px;
+    text-align: center;
+}
+
+#mensagem {
+    font-size: 74px;
+    font-weight: 300;
+}
+
+button {
+    width: 300px;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+button:hover {
+    color: #000000;
+    background-color: #3efd14;
+    font-weight: 700;
+}
